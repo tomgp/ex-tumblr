@@ -1,0 +1,369 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta http-equiv="x-dns-prefetch-control" content="off"/><meta name="viewport" content="width=960" id="viewport"><title>ʇoɟɟǝǝɯıןʞsɥɐʞǝ: Archive</title><link rel="icon" href="http://38.media.tumblr.com/avatar_6b07dd84c84d_128.png" type="image/png"/><link rel="stylesheet" media="screen" href="http://assets.tumblr.com/client/prod/app/styles/global.css?_v=1851546eb03e3f73ec97954b4b86ab3f">
+<link rel="stylesheet" media="screen" href="http://assets.tumblr.com/client/prod/app/context/archive/styles.css?_v=10760220f167844a3cc24764239eb78e">
+<script>require=function r(t,n,e){function o(i,f){if(!n[i]){if(!t[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);throw new Error("Cannot find module '"+i+"'")}var a=n[i]={exports:{}};t[i][0].call(a.exports,function(r){var n=t[i][1][r];return o(n?n:r)},a,a.exports,r,t,n,e)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<e.length;i++)o(e[i]);return o}({"f/LVtH":[function(r,t,n){"use strict";function e(r){return"function"==typeof r}function o(r){return"undefined"==typeof r}function u(r){var t,n;if(!e(r))throw new TypeError;return function(){return t?n:(t=!0,n=r.apply(this,arguments),r=null,n)}}function i(r){return!(!a||!a[r])}function f(r){var t=i(r);return t?function n(r){var u=e(r)?r.call(this,t):r;return o(u)?n:u}:function u(r,n){var i=e(n)?n.call(this,t):n;return o(i)?u:i}}function c(r){try{a=JSON.parse(s(r))}catch(t){a={}}}var a,p=Object.prototype,s=(p.toString,e(window.atob)?window.atob:function(r){var t,n,e,o,u={},i=0,f=0,c="",a=String.fromCharCode,p=r.length,s="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";for(t=0;64>t;t++)u[s.charAt(t)]=t;for(e=0;p>e;e++)for(n=u[r.charAt(e)],i=(i<<6)+n,f+=6;f>=8;)((o=i>>>(f-=8)&255)||p-2>e)&&(c+=a(o));return c});t.exports=f,t.exports.bool=i,t.exports.setup=u(c)},{}],"prima/lib/flags":[function(r,t,n){t.exports=r("f/LVtH")},{}]},{},[]);</script><script>
+(function(exports, store) {
+    'use strict';
+    var flags = require('prima/lib/flags');
+    flags.setup(store);
+    exports.Flags = flags; // Legacy Tumblr.Flags
+})((this.Tumblr || (this.Tumblr = {})), "eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aV9wYXJzZV90ZXN0Ijp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJyZWJsb2dfdWlfcmVmcmVzaCI6dHJ1ZSwidGFiX3N3aXRjaGVyIjp0cnVlLCJmYXN0X2NvbXBvc2UiOnRydWUsImRhc2hib2FyZF9yZWZyZXNoIjp0cnVlLCJtb2JpbGVfd2ViX3Bob3Rvc2V0cyI6dHJ1ZSwibW9iaWxlX3dlYl9nYXRlIjp0cnVlLCJtb2JpbGVfd2ViX3BhZ2VfdGl0bGVzIjp0cnVlLCJtb2JpbGVfd2ViX3NlYXJjaCI6dHJ1ZSwibW9iaWxlX3dlYl9zZWFyY2hfZmlsdGVyIjp0cnVlLCJtb2JpbGVfd2ViX2FidXNlX2Zvcm0iOnRydWUsImRvbnRfY2FzdF9qc19mb2xsb3dzIjp0cnVlLCJhZHNfbmV3X3ZlbmRvcl9idXR0b25zIjp0cnVlLCJibG9ja19mZWF0dXJlIjp0cnVlLCJyZWFjdGl2YXRpb25fZmxvdyI6dHJ1ZSwiZ3VscGpzX2FkbWluIjp0cnVlLCJlbmFibGVfanNfZXJyb3JzX2xvZyI6dHJ1ZSwiZW5hYmxlX2pzX2VwaGVtZXJhbF9sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJjc2xvZ2dlcl9qcyI6dHJ1ZSwiZGlzY292ZXJ5X2h1Yl9hY2Nlc3MiOnRydWUsImhlYWRlcl9hY2NvdW50X21lbnUiOnRydWUsImVuYWJsZV9wcmltYV9zaGFyZV9wb3BvdmVyIjp0cnVlLCJlbmFibGVfc2hhcmVfZW1iZWRfY29kZSI6dHJ1ZSwicGludGVyZXN0X3NoYXJpbmciOnRydWUsInJlZGRpdF9zaGFyaW5nIjp0cnVlLCJwb3N0X2l0X2ZvcndhcmQiOnRydWUsInBlZXByX3NlYXJjaF9hbmRfZmlsdGVyIjp0cnVlLCJpbnRlcm5zX3BhZ2UiOnRydWUsImRpc2FibGVfeWFob29fYl9jb29raWUiOnRydWV9");
+</script>
+<script src="http://assets.tumblr.com/client/prod/app/vendor/index.js?_v=73d6c68722c3197e9c3000d48299be41"></script>
+<script>
+    Tumblr.assets_host       = 'http://assets.tumblr.com';
+        Tumblr.getRealNow = (function(p, ts) {
+        var start = (p && p.timing && p.timing.responseStart) || Date.now();
+        return function() { return ts + (Date.now() - start); };
+    })(window.performance, 1444570994000);
+
+    Tumblr.started_at = (new Date()).getTime();
+    Tumblr.real_started_at = Tumblr.getRealNow();
+            Tumblr._log_lady_bootstrap = {"keys":{"search_landing_usage":{"init_event":false,"keep_counts":true,"flags":[]},"search_session_v1":{"init_event":false,"keep_counts":false,"flags":[]}},"default_session":"llsid561a67728aaeb0.62207197"};
+    </script><script src="http://assets.tumblr.com/languages/strings/en_US.js?1343"></script><script src="http://assets.tumblr.com/assets/scripts/tumblr/utils/exceptions.js?_v=55a63b651c2f22bb4c82b78e5aa4e3f7"></script>
+<script src="http://assets.tumblr.com/assets/scripts/polyfills.js?_v=022c3e51e9df87a3260136240663535b"></script>
+<script src="http://assets.tumblr.com/assets/scripts/polyfills.js?_v=022c3e51e9df87a3260136240663535b"></script>
+<script src="http://assets.tumblr.com/assets/scripts/archive/archive.js?_v=8c98b1ded7b017ee2a99e5530361ad2b"></script>
+<script>
+            var l10n_str = l10n_str || {},
+            just_clicked_browse_months = false,
+            is_mobile = RegExp(" Mobile/").test(navigator.userAgent);
+        </script><!--[if lt IE 9]><script>
+              document.createElement('header');
+              document.createElement('nav');
+              document.createElement('section');
+              document.createElement('article');
+              document.createElement('aside');
+              document.createElement('footer');
+           </script><![endif]--></head><body id="body"><header id="nav_archive" class="blue_bar"><a href="/" class="title"><span id="back_to_blog"></span><img class="avatar" src="http://33.media.tumblr.com/avatar_6b07dd84c84d_40.png" alt="" /><h1 class="blog_title">ʇoɟɟǝǝɯıןʞsɥɐʞǝ</h1></a><div id="browse_months"><div id="jump_to_month"><span class="month">Month </span><span class="icon_arrow_carrot_down"></span></div></div><div class="archive-controls inactive" data-view="archive-controls"><div class="search_control post_mode"><div class="search_control_items"><div class="filter_popover_menu search_control_item post_type_filter_menu search_control" data-search-action-type="filter_post_type"><a href="#" class="launch_button search_control_button"><i class="filter_popover_arrow icon_arrow_carrot_down"></i><span class="control_text">Filter by post type</span></a><div class="filter_popover popover_v2" style=""><div class="menu_inner"><span class="filter_popover_nipple"></span><div class="menu_item post_all_filter" data-search-action-value="all"><i class="icon icon_posts"></i><span class="menu_item_text">All posts</span></div><hr class="item_divider" /><div class="menu_item post_type post_text_filter" data-search-action-value="text"><i class="icon icon_post_text_small"></i><span class="menu_item_text">Text</span></div><div class="menu_item post_type post_photo_filter" data-search-action-value="photo"><i class="icon icon_post_photo_small"></i><span class="menu_item_text">Photo</span></div><div class="menu_item post_type post_quote_filter" data-search-action-value="quote"><i class="icon icon_post_quote_small"></i><span class="menu_item_text">Quote</span></div><div class="menu_item post_type post_link_filter" data-search-action-value="link"><i class="icon icon_post_link_small"></i><span class="menu_item_text">Link</span></div><div class="menu_item post_type post_chat_filter" data-search-action-value="chat"><i class="icon icon_post_chat_small"></i><span class="menu_item_text">Chat</span></div><div class="menu_item post_type post_audio_filter" data-search-action-value="audio"><i class="icon icon_post_audio_small"></i><span class="menu_item_text">Audio</span></div><div class="menu_item post_type post_video_filter" data-search-action-value="video"><i class="icon icon_post_video_small"></i><span class="menu_item_text">Video</span></div></div></div></div></div></div>
+</div><nav id="register" class="nav_right"><iframe scrolling="no" frameborder="0" id="tumblr_controls" src="http://assets.tumblr.com/assets/html/archive_iframe.html?_v=038ccc0ce1e7746a9f433dc21c866734#src=http%3A%2F%2Fblog.toffeemilkshake.co.uk%2Farchive%2F2010%2F10&amp;name=toffeemilkshake" width="400" height="28" style="border:0; background-color:transparent; overflow:hidden; "></iframe></nav></header><div class="l-content"><!-- START CONTENT --><header class="heading" style="display:none;"><h2 class="date">October 2010</h2></header><section id="posts_201010" class="posts loading" style="display:none;">
+<div class="post post_micro is_link post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1432534648" ><div class="post_content"><div class="post_content_inner"><a class="link_box" rel="nofollow" href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.hideandseek.net%2Fcant-play-wont-play%2F&amp;t=OGFiNzM2NDgyZjJkYzVmZTgwZjFjMDdiYTMxYjljMGViMGRkNzJmYixQYkkyT2tieQ%3D%3D"><span class="link_info"><span class="link_info_inner"><span class="link_title">Can&rsquo;t play, won&rsquo;t play | Hide&amp;Seek - Inventing new kinds of play</span><span class="link_source">hideandseek.net</span></span></span></a><div class="post_caption"><p>Games offer fail conditions as well as win conditions. They are able to deliver the high levels of emotional engagement they&rsquo;re famed for because they&rsquo;re also adept at delivering the lows of loss, humiliation and frustration. The world of user experience design from which the concept of gamification has arisen has spent the last twenty years erasing loss, humiliation and frustration from its flows. A world of badges and points only offers upwards escalation, and without the pain of loss and failure, these mean far less. And when this upward escalation is based only on accumulation of points, rather than on expressions of my choices and my skills, then this further strips out the sense of agency and competence, so crucial to the emotional and neurological buzz we get from gaming.</p></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1432534648/cant-play-wont-play-hideseek-inventing-new"><div class="hover_inner"><span class="post_date">Oct 29, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1432215252" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 70px; width: 150px;" data-imageurl="http://36.media.tumblr.com/tumblr_lb265n3hJF1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1432215252/httpwwwanothermagcomexclusiveskm3d-1"><div class="hover_inner"><span class="post_date">Oct 29, 2010</span></div>  
+
+        <div class="hover_tags"></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1432184449" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 213px; width: 150px;" data-imageurl="http://40.media.tumblr.com/tumblr_lb25vjjXbS1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1432184449/via-wwwhardfestcom"><div class="hover_inner"><span class="post_date">Oct 29, 2010</span></div>  
+
+        <div class="hover_tags"></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1430651260" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 195px; width: 150px;" data-imageurl="http://41.media.tumblr.com/tumblr_lb1r26sbLt1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1430651260/via-subcultureshanghaifileswordpresscom-in-the"><div class="hover_inner"><span class="post_date">Oct 29, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_1424023665" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 117px; width: 150px;" data-imageurl="http://33.media.tumblr.com/tumblr_l8sjdsdqKy1qzrip0o1_250.gif"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1424023665/interesting-fictional-family-tree-a-clean"><div class="hover_inner"><span class="post_date">Oct 28, 2010</span><span class="post_notes"
+                    data-notes="42">42 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #infographi #webclippings #graphics</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1422828023" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 197px; width: 150px;" data-imageurl="http://41.media.tumblr.com/tumblr_lazz7ktscG1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1422828023/chris-wares-cover-for-fortune-magazine-via"><div class="hover_inner"><span class="post_date">Oct 28, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #infographics</span></div></a></div>
+</div>
+<div class="post post_micro is_regular post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_1422263327" ><div class="post_content"><div class="post_content_inner"><div class="post_title">Like Fighter</div><p><a href="http://wondertonic.tumblr.com/post/1415924218/like-fighter">wondertonic</a>:</p>
+<blockquote>
+<p><img src="http://31.media.tumblr.com/tumblr_layingudXJ1qa5i8y.jpg" class="toggle_inline_image inline_image constrained_image"/></p>
+<p><a title="Like Fighter" href="http://likefighter.com">Like Fighter</a> lets you use the Facebook &ldquo;Like&rdquo; button to pass judgment on hundreds of people, places, things, and abstract concepts. All you need is a Facebook account and a passion for&nbsp;preferring&nbsp;some things over other things. <a title="Which do you like more, Cool Runnings or The War of the Roses?" href="http://likefighter.com">Get to it and show your friends what you care about.</a></p>
+</blockquote></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1422263327/like-fighter"><div class="hover_inner"><span class="post_date">Oct 28, 2010</span><span class="post_notes"
+                    data-notes="40">40 notes</span></div>  
+
+        <div class="hover_tags"></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1422255276" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 199px; width: 150px;" data-imageurl="http://41.media.tumblr.com/tumblr_lazsvhNkWp1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1422255276/demand-leisure-demand-the-wages-of-the-machine"><div class="hover_inner"><span class="post_date">Oct 28, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #graphics</span></div></a></div>
+</div>
+<div class="post post_micro is_link post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1415600306" ><div class="post_content"><div class="post_content_inner"><a class="link_box" rel="nofollow" href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.teleread.com%2Fpaul-biba%2Fan-open-letter-to-cursor-by-richard-eoin-nash%2F&amp;t=OTliNjQ0YjViMDY1ZDMyZDg5NDVkNGZhNmQwYzFmMzIxYWZhYzMyZSxiUjJ3OTVrcg%3D%3D"><span class="link_info"><span class="link_info_inner"><span class="link_title">An Open Letter to Cursor by Richard Eoin Nash</span><span class="link_source">teleread.com</span></span></span></a><div class="post_caption"><blockquote>
+<p>I&rsquo;m talking about rethinking the building blocks of the landscape all  the time. It can be discouraging. It means spending a disproportionate  amount of time on marketing issues and feeling under the siege of  newness. New is good, but when you spend so much energy dealing with  structural newness, you have too little left to take stock of or  encourage newness of content. Stability breeds confidence.</p>
+</blockquote>
+
+<blockquote>
+<p>&hellip;what happens to writers who just can&rsquo;t muster the charisma or aren&rsquo;t  interested in writing their personal legend alongside their books?</p>
+</blockquote></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1415600306/an-open-letter-to-cursor-by-richard-eoin-nash"><div class="hover_inner"><span class="post_date">Oct 27, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1414841401" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;Stuxnet is an Internet worm that infects Windows computers. It primarily spreads via USB sticks, which allows it to get into computers and networks not normally connected to the Internet. Once inside a network, it uses a variety of mechanisms to propagate to other machines within that network and gain privilege once it has infected those machines. These mechanisms include both known and patched vulnerabilities, and four &ldquo;zero-day exploits&rdquo;: vulnerabilities that were unknown and unpatched when the worm was released. (All the infection vulnerabilities have since been patched.) Stuxnet doesn&rsquo;t actually do anything on those infected Windows computers, because they&rsquo;re not the real target. What Stuxnet looks for is a particular model of Programmable Logic Controller (PLC) made by Siemens (the press often refers to these as SCADA systems, which is technically incorrect). These are small embedded industrial control systems that run all sorts of automated processes: on factory floors, in chemical plants, in oil refineries, at pipelines&ndash;and, yes, in nuclear power plants. These PLCs are often controlled by computers, and Stuxnet looks for Siemens SIMATIC WinCC/Step 7 controller software. If it doesn&rsquo;t find one, it does nothing. If it does, it infects it using yet another unknown and unpatched vulnerability, this one in the controller software. Then it reads and changes particular bits of data in the controlled PLCs. It&rsquo;s impossible to predict the effects of this without knowing what the PLC is doing and how it is programmed, and that programming can be unique based on the application. But the changes are very specific, leading many to believe that Stuxnet is targeting a specific PLC, or a specific group of PLCs, performing a specific function in a specific location&ndash;and that Stuxnet&rsquo;s authors knew exactly what they were targeting.&rdquo;</span><span class="quote_source">&mdash;<a href="http://www.schneier.com/blog/archives/2010/10/stuxnet.html">Schneier on Security: Stuxnet</a></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1414841401/stuxnet-is-an-internet-worm-that-infects-windows"><div class="hover_inner"><span class="post_date">Oct 27, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1413600584" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 177px; width: 150px;" data-imageurl="http://40.media.tumblr.com/tumblr_laxvu9K9gU1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1413600584/england-walse-police-force-boundaries-via"><div class="hover_inner"><span class="post_date">Oct 27, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #infographics #infographics dataviz etc. #graphics</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1406889875" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;Arrow showed that when a group chooses, there are no underlying preferences to uncover&ndash;not even in theory. In one sense, the theorem is trivial. We know or should always have known that a group doesn&rsquo;t have preferences anymore than a group smiles. What Arrow showed, however, is that without invoking special cases we can&rsquo;t even rationalize group choices as if leviathan had preferences. Put differently, the only leviathan that rationalizes group choice has the preferences of a madman.&rdquo;</span><span class="quote_source">&mdash;<a href="http://www.marginalrevolution.com/marginalrevolution/">Marginal Revolution</a></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1406889875/arrow-showed-that-when-a-group-chooses-there-are"><div class="hover_inner"><span class="post_date">Oct 26, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_1399887214" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;The accepted story of Slint’s origin winds back to Squirrel Bait and usually ends there, as if the notion that Brian McMahan and Britt Walford shared the stage with fellow godfather of post-rock David Grubbs was too mythic to contest. But to trace a straight line from one band to the other is to overstate the significance of Squirrel Bait at the expense of the intertwining relationships and lesser-known bands shared by each of the young men who ultimately created Spiderland. Squirrel Bait is but one thread among many.&rdquo;</span><span class="quote_source">&mdash;<p><a href="http://33third.blogspot.com/2010/10/slint-spiderland-by-scott-tennent.html?utm_source=twitterfeed&amp;utm_medium=twitter">33&nbsp;1/3: Slint - Spiderland by Scott Tennent</a></p>
+<p>The 33&nbsp;1/3 blog is running a short excerpt from my book, which will be in stores roughly a month from today!</p>
+<p>(via <a href="http://pgwp.tumblr.com/">pgwp</a>)</p></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1399887214/the-accepted-story-of-slints-origin-winds-back-to"><div class="hover_inner"><span class="post_date">Oct 25, 2010</span><span class="post_notes"
+                    data-notes="21">21 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1399613153" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;<p>I think imagination is the single most useful tool humankind possesses. It beats the opposable thumb. I can imagine living without my thumbs, but not without imagination.</p>
+
+<p>I hear voices agreeing with me. &lsquo;Yes, yes!&rsquo; they cry- 'the creative imagination is a tremendous plus in business! We value creativity, we reward it!&rsquo; In the marketplace, the word creativity has come to mean the generation of ideas applicable to practical strategies to make larger profits. This reduction has gone on so long that the word creative can hardly be degraded further. I don’t use it any more, yielding it to capitalists and academics to abuse as they like. But they can’t have imagination.</p>
+
+<p>Imagination is not a means of making money. It has no place in the vocabulary of profit making. It is not a weapon, though all weapons originate from it, and the use, or nonuse, of all weapons depends on it: as do all tools and their uses. The imagination is a fundamental way of thinking, an essential means of becoming and remaining human. It is a tool of the mind.</p>&rdquo;</span><span class="quote_source">&mdash;Ursula Le Guin (from The Operating Instructions in The Wave In The Mind)</span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1399613153/i-think-imagination-is-the-single-most-useful-tool"><div class="hover_inner"><span class="post_date">Oct 25, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #bookclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_link post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1391702282" ><div class="post_content"><div class="post_content_inner"><a class="link_box" rel="nofollow" href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.perceptualedge.com%2Fexamples.php&amp;t=ODMzOTFiODRjZjRmYmFkN2E3Zjk5M2E2OTNjNmNjNzY5ZjU2ZjBjNCx5RG02UHA5MQ%3D%3D"><span class="link_info"><span class="link_info_inner"><span class="link_title">Perceptual Edge - Examples</span><span class="link_source">perceptualedge.com</span></span></span></a><div class="post_caption"><blockquote>
+<p>Each of the examples that appear below illustrates quantitative information that is poorly designed for communication.</p>
+</blockquote></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1391702282/perceptual-edge-examples"><div class="hover_inner"><span class="post_date">Oct 24, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #infographics #webclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_video post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1373415073" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 112px; width: 150px;" data-imageurl="https://i.ytimg.com/vi/rKhbUjVyKIc/hqdefault.jpg"><div class="play_button"><span class="play_button_label">Play</span></div></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1373415073/my-little-piece-of-privacy-via-royrobotiks"><div class="hover_inner"><span class="post_date">Oct 22, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #video #infographics dataviz etc.</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1373299106" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;Americans don’t understand the extent of disparity in the US, &hellip; they (we) desire a more equitable society. It is also interesting to note that the differences between people who make more money and less money, republicans and democrats, men and women — were relatively small in magnitude, and that in general people who fall into these different categories seem to agree about the ideal wealth distribution&rdquo;</span><span class="quote_source">&mdash;<a href="http://danariely.com/2010/09/30/wealth-inequality/"><div class="external-image-wrapper" data-loading-text="Loading..." data-src="http://paul.kedrosky.com//alriely.png">External image</div>Dan Ariely &raquo; Blog Archive Wealth Inequality &laquo;</a></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1373299106/americans-dont-understand-the-extent-of-disparity"><div class="hover_inner"><span class="post_date">Oct 22, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings #infographics</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1365051507" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 264px; width: 150px;" data-imageurl="http://36.media.tumblr.com/tumblr_lamufpTi1O1qengi4o1_250.png"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1365051507/uk-spending-review-chart-expanded-state"><div class="hover_inner"><span class="post_date">Oct 21, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #infographics #work #infographics dataviz etc. #original #graphics</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1365040181" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 157px; width: 150px;" data-imageurl="http://40.media.tumblr.com/tumblr_lamu9uqgaN1qengi4o1_250.png"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1365040181/uk-spending-review-chart-colapsed-state"><div class="hover_inner"><span class="post_date">Oct 21, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #infographics #work #infographics dataviz etc. #original #graphics</span></div></a></div>
+</div>
+<div class="post post_micro is_link post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_1357629552" ><div class="post_content"><div class="post_content_inner"><a class="link_box" rel="nofollow" href="http://t.umblr.com/redirect?z=http%3A%2F%2Fstuartroseman.com%2Fpost%2F619953720%2Fout-with-the-old-business-in-with-the-new&amp;t=ZTU0MDNhMDU1NTljODkzNmY5MWI2N2QyMDVjMmQ0OWI0NTYxNmMwZixxUnZuR1NsUg%3D%3D"><span class="link_info"><span class="link_info_inner"><span class="link_title">Stuart Roseman on the shut down of Verifiable</span><span class="link_source">stuartroseman.com</span></span></span></a><div class="post_caption"><blockquote>
+<p>We misestimated how hard the project was.  Specifically we misestimated how hard the following issues would be:</p>
+<ol><li>how many edge cases there are in any complex user interface </li>
+<li>how little patience users have for complex user interfaces </li>
+<li>how hard it is to find clean data and upload it </li>
+<li>how little interest people have in finding clean data and uploading it </li>
+<li>how much time and skill it requires to find clean data and upload it </li>
+<li>how much time and skill it requires to make a decent, thoughtful chart from that data </li>
+<li>how impossible it is to test complex user interfaces (we even  convinced the funfx guy to help out and we still failed to develop a  decent overall easy to run test framework) </li>
+<li>how fragile a complex flex based user interface is. fix one thing break another. </li>
+</ol></blockquote>
+<p>Yep, no one really believes those things until they&rsquo;ve felt the pain themselves</p></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1357629552/stuart-roseman-on-the-shut-down-of-verifiable"><div class="hover_inner"><span class="post_date">Oct 20, 2010</span><span class="post_notes"
+                    data-notes="21">21 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings #infographics</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_1357311358" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;Public bodies whose purpose is to hold corporations to account are being swept away. Public bodies whose purpose is to help boost corporate profits, regardless of the consequences for people and the environment, have sailed through unharmed. What the two lists suggest is that the economic crisis is the disaster the Conservatives have been praying for. The government’s programme of cuts looks like a classic example of disaster capitalism: using a crisis to re-shape the economy in the interests of business.&rdquo;</span><span class="quote_source">&mdash;<a href="http://www.monbiot.com/archives/2010/10/18/britains-shock-doctrine/">George Monbiot ain&rsquo;t impressed with the coalition&rsquo;s quango-cutting</a>. (Published in <a href="http://www.guardian.co.uk/commentisfree/2010/oct/18/conservative-financial-crisis-opportunity">The Guardian</a>.)</span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1357311358/public-bodies-whose-purpose-is-to-hold"><div class="hover_inner"><span class="post_date">Oct 20, 2010</span><span class="post_notes"
+                    data-notes="1">1 note</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1343606851" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;As the Afghanistan war slide illustrates, networks are often the most poorly visualized data. This is frequently because those visualizing network data think it is a good idea to include all nodes and edges in the visualization. This, however, is not making a complex thing simple—rather—this is making a complex thing ugly.&rdquo;</span><span class="quote_source">&mdash;<a href="http://www.dataists.com/2010/10/what-data-visualization-should-do-simple-small-truth/">What Data Visualization Should Do: Simple Small Truth</a>&nbsp;(<a href="http://www.dataists.com/">dataists</a>)</span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1343606851/as-the-afghanistan-war-slide-illustrates-networks"><div class="hover_inner"><span class="post_date">Oct 18, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings #infographics</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1337587082" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 256px; width: 150px;" data-imageurl="http://41.media.tumblr.com/tumblr_lag63nh4MB1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1337587082/jl-borges-review-of-citizen-kane-from-the-total"><div class="hover_inner"><span class="post_date">Oct 17, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #bookclippings #black and white</span></div></a></div>
+</div>
+<div class="post post_micro is_link post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_1326904091" ><div class="post_content"><div class="post_content_inner"><a class="link_box" rel="nofollow" href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.guardian.co.uk%2Flifeandstyle%2F2010%2Foct%2F14%2Fhate-hipsters-blogs&amp;t=OGY1YzE3ZTVhM2ZmYTAyMTNhODU1N2M1NTc1NDNmMzAwZDY4YjA3ZCx5RHFSaExjOQ%3D%3D"><span class="link_info"><span class="link_info_inner"><span class="link_title">Why do people hate hipsters? | Life and style | The Guardian</span><span class="link_source">guardian.co.uk</span></span></span></a><div class="post_caption"><p>Mark Greif, a New York English professor and one of the book&rsquo;s chief editors traces this hipster&rsquo;s recent history back to the post-punk DIY movement of the 80s.</p>
+<p>&ldquo;Back then there was this insistence on something like an alternative to capitalism,&rdquo;</p>
+<p>&mdash;</p>
+<p>Early hipsters&rsquo; adoption of these and other suburban signifiers, such as trucker caps and BMX bikes, as they sauntered around urban areas is significant. The White Negro had fetishised blackness; these newer arrivals glorified lower-middle-class whites. This is partially why Greif and co, in a line that sounds very much like it may stray into Pseuds Corner, see these early hipsters as neoliberal.&nbsp;</p>
+<p>&ldquo;It seemed to revolve around the desire to reproduce as rebellion these things that had formerly been part of the mainstream market,&rdquo; says Greif, citing the art-gallery porn by the likes of Richard Kern and the conspicuous consumption of meat while in the company of vegetarians as two examples. &ldquo;There&rsquo;s this idea that they are the agents of change, the true revolutionaries, where the revolutionary change is to &hellip; make exclusive the pleasures that had potentially belonged to anyone in the past, to celebrate the upwards redistribution of wealth.&rdquo;</p>
+
+<p>&mdash;</p>
+<p>
+</p><p>&ldquo;The hipster,&rdquo; Horing suggests, &ldquo;is the bogeyman who keeps us from becoming too settled in our identity, keeps us moving forward into new fashions, keep us consuming more &lsquo;creatively&rsquo; and discovering new things that haven&rsquo;t become lame and hipster. We keep consuming more, and more cravenly, yet this always seems to us to be the hipster&rsquo;s fault, not our own.&rdquo;</p>
+<p>Horing also raises an even less-palatable notion: &rsquo;&ldquo;If you are concerned enough about the phenomenon to analyse it and discuss it, you are already somewhere on the continuum of hipsterism and are in the&nbsp;process of trying to rid yourself of its 'taint&rsquo;.&rdquo;</p>
+<p>&mdash;</p>
+<p>&ldquo;There&rsquo;s nothing daring about wearing Ray-Bans with colourful frames. Every single idiot is&nbsp;doing it.&rdquo;</p>
+</div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1326904091/why-do-people-hate-hipsters-life-and-style"><div class="hover_inner"><span class="post_date">Oct 16, 2010</span><span class="post_notes"
+                    data-notes="1">1 note</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #webclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1313659796" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;When I see an adult on a bicycle, I do not despair for the future of the human race.&rdquo;</span><span class="quote_source">&mdash;HG Wells</span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1313659796/when-i-see-an-adult-on-a-bicycle-i-do-not-despair"><div class="hover_inner"><span class="post_date">Oct 14, 2010</span></div>  
+
+        <div class="hover_tags"></div></a></div>
+</div>
+<div class="post post_micro is_regular post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1306463955" ><div class="post_content"><div class="post_content_inner"><div class="post_title">Steven Pinker. The Stuff of Thought p315</div><p>&hellip; most people have the wrong theory of cultural change. They think that the changes [in popular baby names] are the predictable effects of external causes: governments, advertisers, celebrities, the economy, wars, cars, technology, and so on. They also think that cultural changes are&nbsp;<em>meaningful</em>&nbsp;- that one can give a purposeful explanation of why a society does somethingin the same way that one can give a purposeful explanation of why a person does&nbsp;something.&nbsp;</p></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1306463955/steven-pinker-the-stuff-of-thought-p315"><div class="hover_inner"><span class="post_date">Oct 13, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #bookclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_regular post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1306466243" ><div class="post_content"><div class="post_content_inner"><div class="post_title">Steven Pinker. The Stuff of Thought p85 - 86</div><p>Things and locations. When the mind locates one object with respect to another, it is apt to compress the first one into a pinpoint or a blob whose shape and parts are no longer discernable, like a thing in a box. We have seen this holistic mentality carried over to&nbsp;<em>abstract&nbsp;</em>spaces for qualities or states, like a filled wagon or a garden swarming with bees. I suspect this is one of the reasons people have som much trouble understanding statistical comparisons. One example has been very much in the news. Many researchers have documentedthat the distributions of talents and temperaments for men and women are not identical. In tests of mental rotation of 3-D objects, for instance, the average score for men is higher; in tests of verbal fluency, the average score for women is higher. Averages are only averages, of course; some women are better spatial thinkers than most men and some men are more verbally fluent than most women. Yet when people hear about this research, they tend to mangle it into the claim that every last man is better than every last woman (or vice versa). People who celebrate the difference write books like&nbsp;<em>Men Are From Mars Women Are From Venus&nbsp;</em>; people who deplore it accuse the researchers of saying that &ldquo;a whole group of people is innately wired to fail.&rdquo; It&rsquo;s as if people heard the statistic that women outlive men on average and concluded that every woman outlives every man. The image of one orb floating above another seems to come more naturally to the mind than an image of two overlapping bell curves.&nbsp;</p></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1306466243/steven-pinker-the-stuff-of-thought-p85-86"><div class="hover_inner"><span class="post_date">Oct 13, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #bookclippings</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1306456556" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;How beautiful it is to get up in the morning and go out and do something. We are here on Earth to fart around. Don&rsquo;t let anybody tell you any different.&rdquo;</span><span class="quote_source">&mdash;Kurt Vonnegut</span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1306456556/how-beautiful-it-is-to-get-up-in-the-morning-and"><div class="hover_inner"><span class="post_date">Oct 13, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #quotations</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1306454346" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;I believe the common character of the universe, is not harmony but chaos, hostility, and murder.&rdquo;</span><span class="quote_source">&mdash;Werner Herzog (in Grizzly Man)</span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1306454346/i-believe-the-common-character-of-the-universe-is"><div class="hover_inner"><span class="post_date">Oct 13, 2010</span></div>  
+
+        <div class="hover_tags"></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1306453275" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;Work is of two kinds: first, altering the position of matter at or near the earth&rsquo;s surface relatively to other such matter; second, telling other people to do so.&rdquo;</span><span class="quote_source">&mdash;Bertrand Russel (in praise of idleness)</span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1306453275/work-is-of-two-kinds-first-altering-the-position"><div class="hover_inner"><span class="post_date">Oct 13, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #quotations</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1306448839" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;When the spirits are low, when the day appears dark, when work becomes monotonous, when hope hardly seems worth having, just mount a bicycle and go out for a spin down the road, without thought on anything but the ride you are taking.&rdquo;</span><span class="quote_source">&mdash;Arthur Conan Doyle</span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1306448839/when-the-spirits-are-low-when-the-day-appears"><div class="hover_inner"><span class="post_date">Oct 13, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #quotations</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1306445333" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;In societies dominated by modern conditions of production, life is presented as an immense accumulation of spectacles,. [&hellip;] The spectacle presents itself as a vast inaccessible reality that can never be questioned. Its sole message is: &lsquo;What appears is good; what is good appears.&rsquo; The passive acceptance it demands is already effectively imposed by its monopoly of appearances, its manner of appearing without allowing any reply.&rdquo;</span><span class="quote_source">&mdash;Guy Debord</span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1306445333/in-societies-dominated-by-modern-conditions-of"><div class="hover_inner"><span class="post_date">Oct 13, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #quotations</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1306443774" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;A person who says &lsquo;My noise is my right&rsquo; basically means 'Your ear is my hole&rsquo;.&rdquo;</span><span class="quote_source">&mdash;<a href="http://www.guardian.co.uk/books/2010/jun/26/steven-poole-nonfiction-choice-review">Garret Keizer</a></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1306443774/a-person-who-says-my-noise-is-my-right-basically"><div class="hover_inner"><span class="post_date">Oct 13, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #quotations</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_1306442200" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;Every journalist who is not too stupid or too full of himself to notice what is going on knows that what he does is morally indefensible.&rdquo;</span><span class="quote_source">&mdash;Janet Malcom</span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/1306442200/every-journalist-who-is-not-too-stupid-or-too-full"><div class="hover_inner"><span class="post_date">Oct 13, 2010</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #quotations</span></div></a></div>
+</div></section><!-- END CONTENT --></div><div id="pagination"><div rel="nowfollow" id="next_page" style="display:none"><a id="next_page_link" href="/archive/2010/10?before_time=1286985565">Next page &rarr;</a></div></div><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?ef130df8c2a7564280336b1092f2f094#" +
+                              "http://blog.toffeemilkshake.co.uk";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/archive/2010/10?route=%2Farchive%2F%3Ayear%2F%3Amonth'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/archive/:year/:month';
+                    var tumblelog_id = '8697520';
+                    var yahoo_space_id = '1197719231';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1444570994&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxvZy50b2ZmZWVtaWxrc2hha2UuY28udWtcL2FyY2hpdmVcLzIwMTBcLzEwIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL2FyY2hpdmVcLzp5ZWFyXC86bW9udGgifQ==&U=PBHIEFINAK&K=4b3fe04075709eaf00f2ce0280513c24340c31b4ddc8ea3178b6721298d6df76&R=http%3A%2F%2Fblog.toffeemilkshake.co.uk%2Farchive'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1444570994&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxvZy50b2ZmZWVtaWxrc2hha2UuY28udWtcL2FyY2hpdmVcLzIwMTBcLzEwIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL2FyY2hpdmVcLzp5ZWFyXC86bW9udGgiLCJub3NjcmlwdCI6MX0=&U=PBHIEFINAK&K=b7bc152973b706e8f8fc3adc1f7a2ece2cdf2beab236279b3ebb9eefb1103a7a&R=http%3A%2F%2Fblog.toffeemilkshake.co.uk%2Farchive"></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=9f90e827cf2f20702cf44af88c753ddb';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=9f90e827cf2f20702cf44af88c753ddb';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><div id="browse_months_widget" class="popover popover_gradient" style="display:none"><div class="popover_inner"><section id="year_2015" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2014</span></a><span class="current_year">2015</span><div class="next_year"><span></span></div><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2015/1">January</a></li><li><a href="/archive/2015/2">February</a></li><li><a href="/archive/2015/3">March</a></li><li><a href="/archive/2015/4">April</a></li><li><a href="/archive/2015/5">May</a></li><li><a href="/archive/2015/6">June</a></li><li><a href="/archive/2015/7">July</a></li><li><a href="/archive/2015/8">August</a></li><li><a href="/archive/2015/9">September</a></li><li><a href="/archive/2015/10">October</a></li><li class="empty"><span>November</span></li><li class="empty"><span>December</span></li></ul></nav></section><section id="year_2014" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2013</span></a><span class="current_year">2014</span><a class="next_year" href="#"><span>2015</span></a><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2014/1">January</a></li><li><a href="/archive/2014/2">February</a></li><li><a href="/archive/2014/3">March</a></li><li><a href="/archive/2014/4">April</a></li><li><a href="/archive/2014/5">May</a></li><li><a href="/archive/2014/6">June</a></li><li><a href="/archive/2014/7">July</a></li><li><a href="/archive/2014/8">August</a></li><li><a href="/archive/2014/9">September</a></li><li><a href="/archive/2014/10">October</a></li><li><a href="/archive/2014/11">November</a></li><li><a href="/archive/2014/12">December</a></li></ul></nav></section><section id="year_2013" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2012</span></a><span class="current_year">2013</span><a class="next_year" href="#"><span>2014</span></a><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2013/1">January</a></li><li><a href="/archive/2013/2">February</a></li><li><a href="/archive/2013/3">March</a></li><li><a href="/archive/2013/4">April</a></li><li><a href="/archive/2013/5">May</a></li><li><a href="/archive/2013/6">June</a></li><li><a href="/archive/2013/7">July</a></li><li><a href="/archive/2013/8">August</a></li><li><a href="/archive/2013/9">September</a></li><li><a href="/archive/2013/10">October</a></li><li><a href="/archive/2013/11">November</a></li><li><a href="/archive/2013/12">December</a></li></ul></nav></section><section id="year_2012" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2011</span></a><span class="current_year">2012</span><a class="next_year" href="#"><span>2013</span></a><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2012/1">January</a></li><li><a href="/archive/2012/2">February</a></li><li><a href="/archive/2012/3">March</a></li><li><a href="/archive/2012/4">April</a></li><li><a href="/archive/2012/5">May</a></li><li><a href="/archive/2012/6">June</a></li><li><a href="/archive/2012/7">July</a></li><li><a href="/archive/2012/8">August</a></li><li><a href="/archive/2012/9">September</a></li><li><a href="/archive/2012/10">October</a></li><li><a href="/archive/2012/11">November</a></li><li><a href="/archive/2012/12">December</a></li></ul></nav></section><section id="year_2011" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2010</span></a><span class="current_year">2011</span><a class="next_year" href="#"><span>2012</span></a><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2011/1">January</a></li><li><a href="/archive/2011/2">February</a></li><li><a href="/archive/2011/3">March</a></li><li><a href="/archive/2011/4">April</a></li><li><a href="/archive/2011/5">May</a></li><li><a href="/archive/2011/6">June</a></li><li><a href="/archive/2011/7">July</a></li><li><a href="/archive/2011/8">August</a></li><li><a href="/archive/2011/9">September</a></li><li><a href="/archive/2011/10">October</a></li><li><a href="/archive/2011/11">November</a></li><li><a href="/archive/2011/12">December</a></li></ul></nav></section><section id="year_2010" class="year" style="display:block"><header class="year_navigation"><div class="previous_year"><span></span></div><span class="current_year">2010</span><a class="next_year" href="#"><span>2011</span></a><div class="clear"></div></header><nav class="months"><ul><li class="empty"><span>January</span></li><li class="empty"><span>February</span></li><li class="empty"><span>March</span></li><li class="empty"><span>April</span></li><li class="empty"><span>May</span></li><li class="empty"><span>June</span></li><li class="empty"><span>July</span></li><li class="empty"><span>August</span></li><li class="empty"><span>September</span></li><li><a href="/archive/2010/10">October</a></li><li><a href="/archive/2010/11">November</a></li><li><a href="/archive/2010/12">December</a></li></ul></nav></section></div></div><script src="http://assets.tumblr.com/client/prod/app/context/archive/index.js?_v=5e7194ec614f1878ba4de93a5f9c2e6d"></script>
+<script>require("context").bootloader({"Components":{"LogLady":{"keys":{"search_landing_usage":{"init_event":false,"keep_counts":true,"flags":[]},"search_session_v1":{"init_event":false,"keep_counts":false,"flags":[]}},"default_session":"llsid561a67728aaeb0.62207197"}},"Flags":[],"Context":{"name":"archive","time":1444570994000,"userinfo":{"primary":"","name":"","channels":[]},"hosts":{"assets_host":"http:\/\/assets.tumblr.com","secure_assets_host":"https:\/\/secure.assets.tumblr.com","www_host":"http:\/\/www.tumblr.com","embed_host":"https:\/\/embed.tumblr.com","safe_host":"http:\/\/safe.txmblr.com","platform_host":"http:\/\/platform.tumblr.com"},"language":"en_US","language_simple":"en"},"Translations":{"Private Url":"Private URL"}});</script>
+</body></html>

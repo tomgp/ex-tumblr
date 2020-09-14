@@ -1,0 +1,398 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta http-equiv="x-dns-prefetch-control" content="off"/><meta name="viewport" content="width=960" id="viewport"><title>ʇoɟɟǝǝɯıןʞsɥɐʞǝ: Archive</title><link rel="icon" href="http://38.media.tumblr.com/avatar_6b07dd84c84d_128.png" type="image/png"/><link rel="stylesheet" media="screen" href="http://assets.tumblr.com/client/prod/app/styles/global.css?_v=1851546eb03e3f73ec97954b4b86ab3f">
+<link rel="stylesheet" media="screen" href="http://assets.tumblr.com/client/prod/app/context/archive/styles.css?_v=10760220f167844a3cc24764239eb78e">
+<script>require=function r(t,n,e){function o(i,f){if(!n[i]){if(!t[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);throw new Error("Cannot find module '"+i+"'")}var a=n[i]={exports:{}};t[i][0].call(a.exports,function(r){var n=t[i][1][r];return o(n?n:r)},a,a.exports,r,t,n,e)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<e.length;i++)o(e[i]);return o}({"f/LVtH":[function(r,t,n){"use strict";function e(r){return"function"==typeof r}function o(r){return"undefined"==typeof r}function u(r){var t,n;if(!e(r))throw new TypeError;return function(){return t?n:(t=!0,n=r.apply(this,arguments),r=null,n)}}function i(r){return!(!a||!a[r])}function f(r){var t=i(r);return t?function n(r){var u=e(r)?r.call(this,t):r;return o(u)?n:u}:function u(r,n){var i=e(n)?n.call(this,t):n;return o(i)?u:i}}function c(r){try{a=JSON.parse(s(r))}catch(t){a={}}}var a,p=Object.prototype,s=(p.toString,e(window.atob)?window.atob:function(r){var t,n,e,o,u={},i=0,f=0,c="",a=String.fromCharCode,p=r.length,s="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";for(t=0;64>t;t++)u[s.charAt(t)]=t;for(e=0;p>e;e++)for(n=u[r.charAt(e)],i=(i<<6)+n,f+=6;f>=8;)((o=i>>>(f-=8)&255)||p-2>e)&&(c+=a(o));return c});t.exports=f,t.exports.bool=i,t.exports.setup=u(c)},{}],"prima/lib/flags":[function(r,t,n){t.exports=r("f/LVtH")},{}]},{},[]);</script><script>
+(function(exports, store) {
+    'use strict';
+    var flags = require('prima/lib/flags');
+    flags.setup(store);
+    exports.Flags = flags; // Legacy Tumblr.Flags
+})((this.Tumblr || (this.Tumblr = {})), "eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aV9wYXJzZV90ZXN0Ijp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJyZWJsb2dfdWlfcmVmcmVzaCI6dHJ1ZSwidGFiX3N3aXRjaGVyIjp0cnVlLCJmYXN0X2NvbXBvc2UiOnRydWUsImRhc2hib2FyZF9yZWZyZXNoIjp0cnVlLCJtb2JpbGVfd2ViX3Bob3Rvc2V0cyI6dHJ1ZSwibW9iaWxlX3dlYl9nYXRlIjp0cnVlLCJtb2JpbGVfd2ViX3BhZ2VfdGl0bGVzIjp0cnVlLCJtb2JpbGVfd2ViX3NlYXJjaCI6dHJ1ZSwibW9iaWxlX3dlYl9zZWFyY2hfZmlsdGVyIjp0cnVlLCJtb2JpbGVfd2ViX2FidXNlX2Zvcm0iOnRydWUsImRvbnRfY2FzdF9qc19mb2xsb3dzIjp0cnVlLCJhZHNfbmV3X3ZlbmRvcl9idXR0b25zIjp0cnVlLCJibG9ja19mZWF0dXJlIjp0cnVlLCJyZWFjdGl2YXRpb25fZmxvdyI6dHJ1ZSwiZ3VscGpzX2FkbWluIjp0cnVlLCJlbmFibGVfanNfZXBoZW1lcmFsX2xvZyI6dHJ1ZSwibG9nX2xhZHkiOnRydWUsImNzbG9nZ2VyX2pzIjp0cnVlLCJkaXNjb3ZlcnlfaHViX2FjY2VzcyI6dHJ1ZSwiaGVhZGVyX2FjY291bnRfbWVudSI6dHJ1ZSwiZW5hYmxlX3ByaW1hX3NoYXJlX3BvcG92ZXIiOnRydWUsImVuYWJsZV9zaGFyZV9lbWJlZF9jb2RlIjp0cnVlLCJwaW50ZXJlc3Rfc2hhcmluZyI6dHJ1ZSwicmVkZGl0X3NoYXJpbmciOnRydWUsInBvc3RfaXRfZm9yd2FyZCI6dHJ1ZSwicGVlcHJfc2VhcmNoX2FuZF9maWx0ZXIiOnRydWUsImludGVybnNfcGFnZSI6dHJ1ZSwiZGlzYWJsZV95YWhvb19iX2Nvb2tpZSI6dHJ1ZX0=");
+</script>
+<script src="http://assets.tumblr.com/client/prod/app/vendor/index.js?_v=73d6c68722c3197e9c3000d48299be41"></script>
+<script>
+    Tumblr.assets_host       = 'http://assets.tumblr.com';
+        Tumblr.getRealNow = (function(p, ts) {
+        var start = (p && p.timing && p.timing.responseStart) || Date.now();
+        return function() { return ts + (Date.now() - start); };
+    })(window.performance, 1444570757000);
+
+    Tumblr.started_at = (new Date()).getTime();
+    Tumblr.real_started_at = Tumblr.getRealNow();
+            Tumblr._log_lady_bootstrap = {"keys":{"search_landing_usage":{"init_event":false,"keep_counts":true,"flags":[]},"search_session_v1":{"init_event":false,"keep_counts":false,"flags":[]}},"default_session":"llsid561a66859a63d5.53620265"};
+    </script><script src="http://assets.tumblr.com/languages/strings/en_US.js?1343"></script><script src="http://assets.tumblr.com/assets/scripts/tumblr/utils/exceptions.js?_v=55a63b651c2f22bb4c82b78e5aa4e3f7"></script>
+<script src="http://assets.tumblr.com/assets/scripts/polyfills.js?_v=022c3e51e9df87a3260136240663535b"></script>
+<script src="http://assets.tumblr.com/assets/scripts/polyfills.js?_v=022c3e51e9df87a3260136240663535b"></script>
+<script src="http://assets.tumblr.com/assets/scripts/archive/archive.js?_v=8c98b1ded7b017ee2a99e5530361ad2b"></script>
+<script>
+            var l10n_str = l10n_str || {},
+            just_clicked_browse_months = false,
+            is_mobile = RegExp(" Mobile/").test(navigator.userAgent);
+        </script><!--[if lt IE 9]><script>
+              document.createElement('header');
+              document.createElement('nav');
+              document.createElement('section');
+              document.createElement('article');
+              document.createElement('aside');
+              document.createElement('footer');
+           </script><![endif]--></head><body id="body"><header id="nav_archive" class="blue_bar"><a href="/" class="title"><span id="back_to_blog"></span><img class="avatar" src="http://33.media.tumblr.com/avatar_6b07dd84c84d_40.png" alt="" /><h1 class="blog_title">ʇoɟɟǝǝɯıןʞsɥɐʞǝ</h1></a><div id="browse_months"><div id="jump_to_month"><span class="month">Month </span><span class="icon_arrow_carrot_down"></span></div></div><div class="archive-controls inactive" data-view="archive-controls"><div class="search_control post_mode"><div class="search_control_items"><div class="filter_popover_menu search_control_item post_type_filter_menu search_control" data-search-action-type="filter_post_type"><a href="#" class="launch_button search_control_button"><i class="filter_popover_arrow icon_arrow_carrot_down"></i><span class="control_text">Filter by post type</span></a><div class="filter_popover popover_v2" style=""><div class="menu_inner"><span class="filter_popover_nipple"></span><div class="menu_item post_all_filter" data-search-action-value="all"><i class="icon icon_posts"></i><span class="menu_item_text">All posts</span></div><hr class="item_divider" /><div class="menu_item post_type post_text_filter" data-search-action-value="text"><i class="icon icon_post_text_small"></i><span class="menu_item_text">Text</span></div><div class="menu_item post_type post_photo_filter" data-search-action-value="photo"><i class="icon icon_post_photo_small"></i><span class="menu_item_text">Photo</span></div><div class="menu_item post_type post_quote_filter" data-search-action-value="quote"><i class="icon icon_post_quote_small"></i><span class="menu_item_text">Quote</span></div><div class="menu_item post_type post_link_filter" data-search-action-value="link"><i class="icon icon_post_link_small"></i><span class="menu_item_text">Link</span></div><div class="menu_item post_type post_chat_filter" data-search-action-value="chat"><i class="icon icon_post_chat_small"></i><span class="menu_item_text">Chat</span></div><div class="menu_item post_type post_audio_filter" data-search-action-value="audio"><i class="icon icon_post_audio_small"></i><span class="menu_item_text">Audio</span></div><div class="menu_item post_type post_video_filter" data-search-action-value="video"><i class="icon icon_post_video_small"></i><span class="menu_item_text">Video</span></div></div></div></div></div></div>
+</div><nav id="register" class="nav_right"><iframe scrolling="no" frameborder="0" id="tumblr_controls" src="http://assets.tumblr.com/assets/html/archive_iframe.html?_v=038ccc0ce1e7746a9f433dc21c866734#src=http%3A%2F%2Fblog.toffeemilkshake.co.uk%2Farchive%2F2012%2F6&amp;name=toffeemilkshake" width="400" height="28" style="border:0; background-color:transparent; overflow:hidden; "></iframe></nav></header><div class="l-content"><!-- START CONTENT --><header class="heading" style="display:none;"><h2 class="date">June 2012</h2></header><section id="posts_201206" class="posts loading" style="display:none;">
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_26227019974" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;<p>How did you get into this stuff?</p>
+
+<p>&hellip;</p>
+
+<p>Of course, the stories that got you all to hush, in kindergarten, were the ones that contained exactly those elements which you still seek out. In that class full of six-year-olds, everyone was into dinosaurs and/or magic and/or Saturday-morning monsters, just like you. By your teens, though, you are indeed in the minority. Sure, some readers, especially after the hip discover Dick, Butler, Gibson, will come to the field later. But they’re rarities. Mostly those “into this” are those who simply never leave. So you can answer your interlocutors’ question with another: How did they get out of it?</p>&rdquo;</span><span class="quote_source">&mdash;<a href="http://www.newyorker.com/reporting/2012/06/04/120604fa_fact_mieville?mobify=0">Science Fiction&rsquo;s Geekdom : The New Yorker</a></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/26227019974/how-did-you-get-into-this-stuff-of-course"><div class="hover_inner"><span class="post_date">Jun 30, 2012</span><span class="post_notes"
+                    data-notes="7">7 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #sci-fi #china mieville</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_26145228122" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 89px; width: 150px;" data-imageurl="http://40.media.tumblr.com/tumblr_m6dydfFCbV1qengi4o1_250.png"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/26145228122/the-republia-times-is-a-neat-little-flash-game"><div class="hover_inner"><span class="post_date">Jun 29, 2012</span><span class="post_notes"
+                    data-notes="2">2 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #game #flash #news #newspaper #politics</span></div></a></div>
+</div>
+<div class="post post_micro is_audio post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_26135459897" ><div class="post_content"><div class="post_content_inner"><a class="play_button  has_art no_artist" rel="nofollow" href="http://toffeemilkshake.tumblr.com/post/26135459897/as-always-with-hc-theres-a-backstory-to-this-mix"><span class="track_info"><span class="track_info_inner"><span class="track_title">Hectic City 15 - Paths To Graceland</span></span></span></a><div class="post_caption"><blockquote>
+  <p>As always with HC, there&rsquo;s a backstory to this mix - if you have time, I&rsquo;d be delighted if you&rsquo;d read it!:<br /><a href="http://www.kleptones.com/blog/2012/06/28/hectic-city-15-paths-to-graceland">http://www.kleptones.com/blog/2012/06/28/hectic-city-15-paths-to-graceland</a><br /><br />
+  Jive music from South Africa and Lesotho, providers of inspiration for Paul Simon&rsquo;s &ldquo;Graceland&rdquo; - Perfect summer stuff!<br /><br />
+  01a Tau Ea Lesotho - Nyatsi Tloha Pela'ka<br />
+  01b Tau Ea Lesotho - Puleng<br />
+  01c Puseletso Seema &amp; Tau Ea Linare - He O Oe Oe!<br />
+  02  Mahotella Queens - Umculo Kawupheli<br />
+  03  The Rainbows - Mashonisa<br />
+  04  Soul Brothers - Uthembeni-na<br />
+  05  Dark City Sisters - Ezomculo<br />
+  06  M.D. Shirinda &amp; The Gaza Sisters - Pfuka N'wavolo<br />
+  07  Abafana Baseqhudeni - Mubi Umakhelwane<br />
+  08  Mgababa Queens - Maphuthi<br />
+  09  Zorro Five - Barcarolle<br />
+  10  Amazulu Queens - Sankatana<br />
+  11  Marks Mankwane - Khupa Marama No. 2<br />
+  12  Naledi Boys - Bump Again<br />
+  13  Ebrahim Isaacs - Meadowlands<br />
+  14  John Amutabi Nzenze - Angelike Twist<br />
+  15  Queue Sisters - Ethembeni<br />
+  16  Spokes Mashiyane - Kalla&rsquo;s Special<br />
+  17  Soul Of The City - Hustle Bump!<br />
+  18  J.K. Mayengani &amp; The ShingWedzi Sisters - Khubani<br />
+  19  Mahlathini &amp; Izintombi Zomgqashiyo - Okwamadoda Kuya Bhikwa<br />
+  20  Izintombi Zodumo - Mississippi River<br />
+  21  Sannah Mnguni Nesimanjemanje - Ukhulupheka<br />
+  22  Lulu Masilela &amp; The Boyoyo Boys - Small Time No.4<br />
+  23  Tempo All Stars - Take Off<br />
+  24  Paulus Masina - Umalusi<br />
+  25  Intombi Zephepha - Ingoina Le Nyathi<br />
+  26  Mgababa Queens - Akulaiwa Esoweto<br />
+  27  Mahlathini &amp; The Mahotella Queens - Bophumthwalo<br />
+  28  Izintombi Zesi Manje Manje - Awufuni Ukulandela Na<br />
+  29  African Symphonics - Zulu Roll<br />
+  30  Kings Messengers Quartet - My Lord<br /><br /></p>
+</blockquote>
+
+<p>via <a href="http://twitter.com/geographyjim">geographyjim</a></p></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/26135459897/as-always-with-hc-theres-a-backstory-to-this-mix"><div class="hover_inner"><span class="post_date">Jun 29, 2012</span><span class="post_notes"
+                    data-notes="1">1 note</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #music</span></div></a></div>
+</div>
+<div class="post post_micro is_audio post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_26128876518" ><div class="post_content"><div class="post_content_inner"><a class="play_button  has_art has_artist" rel="nofollow" href="http://toffeemilkshake.tumblr.com/post/26128876518/hardcorefornerds-mclusky"><span class="track_info"><span class="track_info_inner"><span class="track_title">whiteliberalonwhiteliberalaction</span><span class="track_artist">Mclusky</span></span></span></a><div class="post_caption"><p><a href="http://hardcorefornerds.tumblr.com/post/26094557687">hardcorefornerds</a>:</p>
+
+<blockquote><p>Mclusky - &lsquo;whiteliberalonwhiteliberalaction&rsquo; from&nbsp;<em>My Pain and Sadness is More Sad and Painful Than Yours</em>&nbsp;(2000)</p>
+<p><a href="http://hardcorefornerds.tumblr.com/post/26093047489">seems appropriate</a>.</p></blockquote>
+
+
+
+<p>My old favourite band</p></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/26128876518/hardcorefornerds-mclusky"><div class="hover_inner"><span class="post_date">Jun 29, 2012</span><span class="post_notes"
+                    data-notes="25">25 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #music #my old favourite band</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_26066511250" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 79px; width: 150px;" data-imageurl="http://36.media.tumblr.com/tumblr_m6btnvfAa11qengi4o1_250.png"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/26066511250/posted-because-this-is-a-good-example-of"><div class="hover_inner"><span class="post_date">Jun 28, 2012</span><span class="post_notes"
+                    data-notes="1">1 note</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #data vis #infographics #d3 #graphics</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_26063223821" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 222px; width: 150px;" data-imageurl="http://33.media.tumblr.com/tumblr_m6bn9dY0gt1qengi4o1_250.gif"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/26063223821/one-of-my-favourite-short-stories-is-kelly-links"><div class="hover_inner"><span class="post_date">Jun 28, 2012</span><span class="post_notes"
+                    data-notes="2">2 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #infographics #upholstery #sci-fi #satisfying tag combos #black and white #graphics</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_26020384514" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 71px; width: 150px;" data-imageurl="http://41.media.tumblr.com/tumblr_m6alywrXza1qengi4o1_250.png"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/26020384514/new-twitter-logo-via-lushmetrics-what-is-it-with"><div class="hover_inner"><span class="post_date">Jun 27, 2012</span><span class="post_notes"
+                    data-notes="3">3 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #logos #design</span></div></a></div>
+</div>
+<div class="post post_micro is_link post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_25850793497" ><div class="post_content"><div class="post_content_inner"><a class="link_box" rel="nofollow" href="http://t.umblr.com/redirect?z=http%3A%2F%2Fonline.wsj.com%2Farticle%2FSB10001424052702304441404577483192246426550.html&amp;t=ZDEyYTBjZjliNTZiNDdiZTQzNTZkODdmOTRhZDEzMzcxZTViOTgyYSx2aGNheGJ5cA%3D%3D"><span class="link_info"><span class="link_info_inner"><span class="link_title">The Cycle Of Existence</span><span class="link_source">online.wsj.com</span></span></span></a><div class="post_caption"><p><a href="http://tomewing.tumblr.com/post/25848745525/the-cycle-of-existence">tomewing</a>:</p>
+
+<blockquote><p>1. Seth Godin sees that people with big online fanbases tend to do well on Kickstarter.</p>
+<p>2. Seth Godin does a Kickstarter for something or other.</p>
+<p>3. Seth Godin tells people how exciting doing a Kickstarter is.</p>
+<p>4. Press report on how brave Seth Godin is to do a Kickstarter.</p>
+<p>5. Seth Godin Kickstarter does very well thanks to big online fanbase.</p>
+<p>6. Visionary marketer Seth Godin has seen the future of publishing.</p>
+<p>7. Aargh.</p></blockquote></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/25850793497/the-cycle-of-existence"><div class="hover_inner"><span class="post_date">Jun 25, 2012</span><span class="post_notes"
+                    data-notes="24">24 notes</span></div>  
+
+        <div class="hover_tags"></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_25845798318" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;Antilochus thrust first, speared the horsehair helmet
+right at the ridge, and the bronze spearpoint lodged in the man’s forehead, smashing through his skull
+and the dark came whirling down across his eyes—&rdquo;</span><span class="quote_source">&mdash;<p><a href="http://deathsoftheiliad.tumblr.com/post/25844076223/antilochus-thrust-first-speared-the-horsehair">Homer, The Iliad book 4. Translated by Robert Fagles</a> (via <a href="http://deathsoftheiliad.tumblr.com/">deathsoftheiliad</a>)</p>
+
+<p>I&rsquo;ve started<a href="http://deathsoftheiliad.tumblr.com"> a new Tumblr </a>cataloging all the deaths in The Iliad, one a day. They&rsquo;re quite impressively swift and brutal.</p>
+
+<p>I&rsquo;ve got up to the end of book four queued up and meticulously tagged so if you follow via tumblr or RSS you&rsquo;re guaranteed at least a weeks worth of gory death to brighten your morning. So far I have used the &lsquo;nipple&rsquo; tag twice.</p></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/25845798318/antilochus-thrust-first-speared-the-horsehair"><div class="hover_inner"><span class="post_date">Jun 25, 2012</span><span class="post_notes"
+                    data-notes="1">1 note</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #iliad #homer #my new blog #war fighting etc #nipple</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_25676149248" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 199px; width: 150px;" data-imageurl="http://41.media.tumblr.com/tumblr_m61js21h6G1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/25676149248/kennedy-snatched-victory-in-the-last-scramble-for"><div class="hover_inner"><span class="post_date">Jun 22, 2012</span><span class="post_notes"
+                    data-notes="2">2 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #games #board games #1960: Making of the President #politics #kennedy #nixon</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_25640397064" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;In <em>Maul</em>, I test-crashed the classic ‘world without men’ narrative with a more contemporary story centring on armed teenaged girls shopping a New Jersey mall. In <em>Double Vision</em> I forced an extra-planetary war into a head-on collision with contemporary call-centre marketing in 1984—the age of <em>Zork</em>.&rdquo;</span><span class="quote_source">&mdash;<p><a href="http://www.orbitbooks.net/2012/06/22/leaving-the-beaten-path-of-sf-the-ideas-behind-tricia-sullivans-novels/">Leaving the &ldquo;beaten path&rdquo; of SF: the ideas behind Tricia Sullivan&rsquo;s novels</a></p>
+
+<p>I&rsquo;m kind of bemused that these books have been out of print, it&rsquo;s really great news that they&rsquo;re available as e-books now. They&rsquo;re messy in the best possible way: stuffed to bursting point with ideas and action and humour and seriousness. Among my favourite novels of the last 10 years.</p></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/25640397064/in-maul-i-test-crashed-the-classic-world-without"><div class="hover_inner"><span class="post_date">Jun 22, 2012</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #ebooks #science fiction #tricia sullivan</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_25594610436" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 112px; width: 150px;" data-imageurl="http://40.media.tumblr.com/tumblr_m5zhp0uWQT1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/25594610436/cimg0767-by-toffeemilkshake-this-is-my-laptop"><div class="hover_inner"><span class="post_date">Jun 21, 2012</span><span class="post_notes"
+                    data-notes="1">1 note</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #complaints #annoyances #me</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_25509273071" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 109px; width: 150px;" data-imageurl="http://40.media.tumblr.com/tumblr_m5u0payfvY1qla0obo1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/25509273071/myloveforyouisastampedeofdata-alluvial-fan"><div class="hover_inner"><span class="post_date">Jun 20, 2012</span><span class="post_notes"
+                    data-notes="3">3 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #geography #satellite photography #agriculture</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_25354363405" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 112px; width: 150px;" data-imageurl="http://41.media.tumblr.com/tumblr_m5t2ojlICJ1qengi4o1_250.png"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/25354363405/via-shirtwoot"><div class="hover_inner"><span class="post_date">Jun 18, 2012</span><span class="post_notes"
+                    data-notes="1">1 note</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #games</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_24906266881" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 199px; width: 150px;" data-imageurl="http://36.media.tumblr.com/tumblr_m5h101Pm5O1rq58eso1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24906266881/bloodymulberry-the-aveley-abduction-the-avis"><div class="hover_inner"><span class="post_date">Jun 11, 2012</span><span class="post_notes"
+                    data-notes="3">3 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #aliens #sci-fi #painting</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_24900397920" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;The Independent correspondent, a nouveau riche from Southampton who inherited millions after his whole family was wiped out by the SOB, bizarrely explains at one point: &ldquo;When you&rsquo;re flush you sort out that you right fancy stuff that&rsquo;s dirt cheap. Like bangers and beans – which is yards better with mealy forty-nine-P sausages than the posh sort with walnuts.&rdquo; This is surely the publishing equivalent of letting someone walk around with their dress tucked into their knickers. Shame on you, HarperCollins.&rdquo;</span><span class="quote_source">&mdash;<p><a href="http://www.guardian.co.uk/books/2012/jun/08/new-republic-lionel-shriver-review">The New Republic by Lionel Shriver - review | Books | The Guardian</a></p>
+
+<p>also:</p>
+
+<blockquote>
+  <p>&ldquo;Do you think Kevin was born evil or was it all his mother&rsquo;s fault?&rdquo; The fact that there is no sensible alternative is what impoverished that novel.</p>
+</blockquote></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24900397920/the-independent-correspondent-a-nouveau-riche"><div class="hover_inner"><span class="post_date">Jun 11, 2012</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #good bad reviews #books #lionel shriver #scarlett thomas</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_24898104042" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 112px; width: 150px;" data-imageurl="http://41.media.tumblr.com/tumblr_m5gvirGNDW1r1ee6wo1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24898104042/alvarovalino-group-dynamics-in-detroit-night"><div class="hover_inner"><span class="post_date">Jun 11, 2012</span><span class="post_notes"
+                    data-notes="1">1 note</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #infographics #photography #detroit</span></div></a></div>
+</div>
+<div class="post post_micro is_video post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_24887283575" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 112px; width: 150px;" data-imageurl="https://i.ytimg.com/vi/wDbTP0B94AM/hqdefault.jpg"><div class="play_button"><span class="play_button_label">Play</span></div></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24887283575/snake-laurie-anderson-o-superman-by"><div class="hover_inner"><span class="post_date">Jun 11, 2012</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #games #snake #nokia #music</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_24883013754" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 210px; width: 150px;" data-imageurl="http://41.media.tumblr.com/tumblr_m58styPf1Q1rxjpjno1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24883013754/helvetiposters-simply-amazing-minimalist"><div class="hover_inner"><span class="post_date">Jun 11, 2012</span><span class="post_notes"
+                    data-notes="6">6 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #black and white</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_24731672803" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 112px; width: 150px;" data-imageurl="http://36.media.tumblr.com/tumblr_m35cyfWT2s1qhpl9ao1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24731672803/ilivebetweenconcretewalls-petula108"><div class="hover_inner"><span class="post_date">Jun 9, 2012</span><span class="post_notes"
+                    data-notes="677">677 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #vegan #recipe #honey</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_24692803809" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 199px; width: 150px;" data-imageurl="http://36.media.tumblr.com/tumblr_m5bbk65trE1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24692803809/the-kernel-nelson-sauvin-pale-ale-by"><div class="hover_inner"><span class="post_date">Jun 8, 2012</span><span class="post_notes"
+                    data-notes="1">1 note</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #beer</span></div></a></div>
+</div>
+<div class="post post_micro is_link post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_24692199215" ><div class="post_content"><div class="post_content_inner"><a class="link_box" rel="nofollow" href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.nybooks.com%2Fblogs%2Fnyrblog%2F2012%2Fjun%2F02%2Fnorth-west-london-blues%2F&amp;t=MDYwM2VmOWVmNjgyMTU1ZTZjNzM4NTk5YjJmOTE1NjNmZDdhZGRiMixOdmlhZUxEUw%3D%3D"><span class="link_info"><span class="link_info_inner"><span class="link_title">The North West London Blues by Zadie Smith | NYRblog | The New York Review of Books</span><span class="link_source">nybooks.com</span></span></span></a><div class="post_caption"><p>A good read, as Zadie Smith pretty much always is IMO.</p>
+
+<p>Reading details about my neighbourhood and about my local libraries on the NYRB site is a bit odd.</p></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24692199215/the-north-west-london-blues-by-zadie-smith"><div class="hover_inner"><span class="post_date">Jun 8, 2012</span><span class="post_notes"
+                    data-notes="27">27 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #kilburn #kensal #queens park #willesden #brent #libraries #zadie smith</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_24675833534" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;Suffice to say he is reviewing a record he admits to first owing on cassette, before &lsquo;trading up&rsquo; to a CD.This is a double LP with 4 carefully compiled sides&hellip;&rdquo;</span><span class="quote_source">&mdash;<p><a href="http://www.amazon.co.uk/product-reviews/0826427871/ref=dp_top_cm_cr_acr_txt?ie=UTF8&amp;showViewpoints=1">Amazon.co.uk: Customer Reviews: The Minutemen &ldquo;Double Nickels on the Dime&rdquo; (33 1/3)</a></p>
+
+<p>Obviously I bought the book on the strength of this one star review.</p></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24675833534/suffice-to-say-he-is-reviewing-a-record-he-admits"><div class="hover_inner"><span class="post_date">Jun 8, 2012</span><span class="post_notes"
+                    data-notes="6">6 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #music #unintentional recommendations #minutemen</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_24613253769" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 112px; width: 150px;" data-imageurl="http://41.media.tumblr.com/tumblr_m5986kkzrU1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24613253769/in-the-advert-above-it-is-assumed-by-amnesty-that"><div class="hover_inner"><span class="post_date">Jun 7, 2012</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #charity #politics #technology</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_24540829287" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 204px; width: 150px;" data-imageurl="http://40.media.tumblr.com/tumblr_m57bdc5F671qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24540829287/via-letters-of-note-be-your-own-self-love-what"><div class="hover_inner"><span class="post_date">Jun 6, 2012</span><span class="post_notes"
+                    data-notes="8">8 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #my so called life #ray bradbury #sci-fi</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_24540392211" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 84px; width: 150px;" data-imageurl="http://38.media.tumblr.com/tumblr_m571lq7mXK1qzt4vjo1_r1_250.gif"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24540392211/dvdp-nasa-sdo-transit-of-venus-193-angstrom"><div class="hover_inner"><span class="post_date">Jun 6, 2012</span><span class="post_notes"
+                    data-notes="5743">5,743 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #black and white</span></div></a></div>
+</div>
+<div class="post post_micro is_link post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink has_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_24529758537" ><div class="post_content"><div class="post_content_inner"><a class="link_box" rel="nofollow" href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.guardian.co.uk%2Fuk%2F2012%2Fjun%2F04%2Fjubilee-pageant-unemployed&amp;t=NmVhNzExOGRiZGJlOTZjNWIzNGYyMWY1OWMxYTEzMDQzMmZkOGQ3ZSxidFhGOFl6Tg%3D%3D"><span class="link_info"><span class="link_info_inner"><span class="link_title">Call for inquiry into use of unpaid jobseekers as jubilee stewards</span><span class="link_source">guardian.co.uk</span></span></span></a><div class="post_caption"><blockquote>
+<p>A group of long-term unemployed jobseekers were bussed into London to work as unpaid stewards during the diamond jubilee celebrations and told to sleep under London Bridge before working on the river pageant.</p>
+<p>Up to 30 jobseekers and another 50 people on apprentice wages were taken to London by coach from Bristol, Bath and Plymouth as part of the government&rsquo;s Work Programme.</p>
+<p>Two jobseekers, who did not want to be identified in case they lost their benefits, said they had to camp under London Bridge the night before the pageant. They told the Guardian they had to change into security gear in public, had no access to toilets for 24 hours, and were taken to a swampy campsite outside London after working a 14-hour shift in the pouring rain on the banks of the Thames on Sunday.</p>
+</blockquote></div>
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24529758537/call-for-inquiry-into-use-of-unpaid-jobseekers-as"><div class="hover_inner"><span class="post_date">Jun 6, 2012</span></div>  
+
+        <div class="hover_tags"></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_24484388177" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 90px; width: 150px;" data-imageurl="http://40.media.tumblr.com/tumblr_m54599sdwK1qz4vjro1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24484388177/venus-transit-polar-proctor"><div class="hover_inner"><span class="post_date">Jun 5, 2012</span><span class="post_notes"
+                    data-notes="295">295 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #infographics #data vis #maps #space #graphics</span></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_24483834798" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 112px; width: 150px;" data-imageurl="http://36.media.tumblr.com/tumblr_m54bvfwTVV1r3ibjso1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24483834798/pbfcomics-magneto-herald-of-galactus-one"><div class="hover_inner"><span class="post_date">Jun 5, 2012</span><span class="post_notes"
+                    data-notes="775">775 notes</span></div>  
+
+        <div class="hover_tags"></div></a></div>
+</div>
+<div class="post post_micro is_photo post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_original with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_24402357720" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 104px; width: 150px;" data-imageurl="http://40.media.tumblr.com/tumblr_m53jb098Qx1qengi4o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24402357720/mad-men-set-photos-by-james-minchin-iii"><div class="hover_inner"><span class="post_date">Jun 4, 2012</span><span class="post_notes"
+                    data-notes="1">1 note</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #tv #phtography #I &amp;lt;3 Mad Men #Apple</span></div></a></div>
+</div>
+<div class="post post_micro is_quote post_tumblelog_0327756205706a9cb3dcb8a0d03b937a not_mine is_reblog with_permalink has_source generic_source reblog_ui_refresh has_hover" id="post_micro_24390900647" ><div class="post_content"><div class="post_content_inner"><span class="quote_text">&ldquo;To me, the sad thing is that expensive films are now dominated by the visual-effects houses. And who are the artists of the visual-effects houses? You know, nerds who have spent their whole lives looking at comic books and video games. So that’s where they get all their visual ideas. That’s why there is an endless repetition of visual ideas in so-called spectacular fantasy or in science fiction.&rdquo;</span><span class="quote_source">&mdash;<p>Brian DePalma</p>
+<p><a href="http://www.artforum.com/inprint/issue=201206&amp;id=31096&amp;pagenum=0">Art forum interview</a>&nbsp;(via <a href="http://milesgunter.tumblr.com/">milesgunter</a>)</p>
+<p>Raises the question: Why is the visual imagination of most games and comics is so conventional?</p></span>
+
+</div></div><div class="post_glass post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://blog.toffeemilkshake.co.uk/post/24390900647/to-me-the-sad-thing-is-that-expensive-films-are"><div class="hover_inner"><span class="post_date">Jun 4, 2012</span><span class="post_notes"
+                    data-notes="23">23 notes</span></div>  
+
+        <div class="hover_tags"><span class="tags">                    #sci-fi #films #comics #games</span></div></a></div>
+</div></section><!-- END CONTENT --></div><div id="pagination"><div rel="nowfollow" id="next_page" style="display:none"><a id="next_page_link" href="/archive/2012/6?before_time=1338792647">Next page &rarr;</a></div></div><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = true;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?ef130df8c2a7564280336b1092f2f094#" +
+                              "http://blog.toffeemilkshake.co.uk";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/archive/2012/6?route=%2Farchive%2F%3Ayear%2F%3Amonth'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/archive/:year/:month';
+                    var tumblelog_id = '8697520';
+                    var yahoo_space_id = '1197719231';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1444570757&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxvZy50b2ZmZWVtaWxrc2hha2UuY28udWtcL2FyY2hpdmVcLzIwMTJcLzYiLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvYXJjaGl2ZVwvOnllYXJcLzptb250aCJ9&U=MAJALIGDHH&K=667227e4aa779e9f495ce717e399f9fbae2ec2c32a82fbc9e69792a7770ff18f&R=http%3A%2F%2Fblog.toffeemilkshake.co.uk%2Farchive'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1444570757&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxvZy50b2ZmZWVtaWxrc2hha2UuY28udWtcL2FyY2hpdmVcLzIwMTJcLzYiLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvYXJjaGl2ZVwvOnllYXJcLzptb250aCIsIm5vc2NyaXB0IjoxfQ==&U=MAJALIGDHH&K=0503225091f9f64f402fdbc2ed2a6bb9495a298671b36ed727880d8369ddbf19&R=http%3A%2F%2Fblog.toffeemilkshake.co.uk%2Farchive"></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=9f90e827cf2f20702cf44af88c753ddb';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=9f90e827cf2f20702cf44af88c753ddb';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><div id="browse_months_widget" class="popover popover_gradient" style="display:none"><div class="popover_inner"><section id="year_2015" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2014</span></a><span class="current_year">2015</span><div class="next_year"><span></span></div><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2015/1">January</a></li><li><a href="/archive/2015/2">February</a></li><li><a href="/archive/2015/3">March</a></li><li><a href="/archive/2015/4">April</a></li><li><a href="/archive/2015/5">May</a></li><li><a href="/archive/2015/6">June</a></li><li><a href="/archive/2015/7">July</a></li><li><a href="/archive/2015/8">August</a></li><li><a href="/archive/2015/9">September</a></li><li><a href="/archive/2015/10">October</a></li><li class="empty"><span>November</span></li><li class="empty"><span>December</span></li></ul></nav></section><section id="year_2014" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2013</span></a><span class="current_year">2014</span><a class="next_year" href="#"><span>2015</span></a><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2014/1">January</a></li><li><a href="/archive/2014/2">February</a></li><li><a href="/archive/2014/3">March</a></li><li><a href="/archive/2014/4">April</a></li><li><a href="/archive/2014/5">May</a></li><li><a href="/archive/2014/6">June</a></li><li><a href="/archive/2014/7">July</a></li><li><a href="/archive/2014/8">August</a></li><li><a href="/archive/2014/9">September</a></li><li><a href="/archive/2014/10">October</a></li><li><a href="/archive/2014/11">November</a></li><li><a href="/archive/2014/12">December</a></li></ul></nav></section><section id="year_2013" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2012</span></a><span class="current_year">2013</span><a class="next_year" href="#"><span>2014</span></a><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2013/1">January</a></li><li><a href="/archive/2013/2">February</a></li><li><a href="/archive/2013/3">March</a></li><li><a href="/archive/2013/4">April</a></li><li><a href="/archive/2013/5">May</a></li><li><a href="/archive/2013/6">June</a></li><li><a href="/archive/2013/7">July</a></li><li><a href="/archive/2013/8">August</a></li><li><a href="/archive/2013/9">September</a></li><li><a href="/archive/2013/10">October</a></li><li><a href="/archive/2013/11">November</a></li><li><a href="/archive/2013/12">December</a></li></ul></nav></section><section id="year_2012" class="year" style="display:block"><header class="year_navigation"><a class="previous_year" href="#"><span>2011</span></a><span class="current_year">2012</span><a class="next_year" href="#"><span>2013</span></a><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2012/1">January</a></li><li><a href="/archive/2012/2">February</a></li><li><a href="/archive/2012/3">March</a></li><li><a href="/archive/2012/4">April</a></li><li><a href="/archive/2012/5">May</a></li><li><a href="/archive/2012/6">June</a></li><li><a href="/archive/2012/7">July</a></li><li><a href="/archive/2012/8">August</a></li><li><a href="/archive/2012/9">September</a></li><li><a href="/archive/2012/10">October</a></li><li><a href="/archive/2012/11">November</a></li><li><a href="/archive/2012/12">December</a></li></ul></nav></section><section id="year_2011" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2010</span></a><span class="current_year">2011</span><a class="next_year" href="#"><span>2012</span></a><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2011/1">January</a></li><li><a href="/archive/2011/2">February</a></li><li><a href="/archive/2011/3">March</a></li><li><a href="/archive/2011/4">April</a></li><li><a href="/archive/2011/5">May</a></li><li><a href="/archive/2011/6">June</a></li><li><a href="/archive/2011/7">July</a></li><li><a href="/archive/2011/8">August</a></li><li><a href="/archive/2011/9">September</a></li><li><a href="/archive/2011/10">October</a></li><li><a href="/archive/2011/11">November</a></li><li><a href="/archive/2011/12">December</a></li></ul></nav></section><section id="year_2010" class="year" style="display:none"><header class="year_navigation"><div class="previous_year"><span></span></div><span class="current_year">2010</span><a class="next_year" href="#"><span>2011</span></a><div class="clear"></div></header><nav class="months"><ul><li class="empty"><span>January</span></li><li class="empty"><span>February</span></li><li class="empty"><span>March</span></li><li class="empty"><span>April</span></li><li class="empty"><span>May</span></li><li class="empty"><span>June</span></li><li class="empty"><span>July</span></li><li class="empty"><span>August</span></li><li class="empty"><span>September</span></li><li><a href="/archive/2010/10">October</a></li><li><a href="/archive/2010/11">November</a></li><li><a href="/archive/2010/12">December</a></li></ul></nav></section></div></div><script src="http://assets.tumblr.com/client/prod/app/context/archive/index.js?_v=5e7194ec614f1878ba4de93a5f9c2e6d"></script>
+<script>require("context").bootloader({"Components":{"LogLady":{"keys":{"search_landing_usage":{"init_event":false,"keep_counts":true,"flags":[]},"search_session_v1":{"init_event":false,"keep_counts":false,"flags":[]}},"default_session":"llsid561a66859a63d5.53620265"}},"Flags":[],"Context":{"name":"archive","time":1444570757000,"userinfo":{"primary":"","name":"","channels":[]},"hosts":{"assets_host":"http:\/\/assets.tumblr.com","secure_assets_host":"https:\/\/secure.assets.tumblr.com","www_host":"http:\/\/www.tumblr.com","embed_host":"https:\/\/embed.tumblr.com","safe_host":"http:\/\/safe.txmblr.com","platform_host":"http:\/\/platform.tumblr.com"},"language":"en_US","language_simple":"en"},"Translations":{"Private Url":"Private URL"}});</script>
+</body></html>
